@@ -13,7 +13,30 @@ Execute:
     
 Edit php/conectar.php file
 
+    // php/conectar.php
+    ...
+    //nome do servidor (127.0.0.1)
+    $servidor = "127.0.0.1";
+ 
+    //usuário do banco de dados
+    $user = "root";
+ 
+    //senha do banco de dados
+    $senha = "password";
+ 
+    //nome da base de dados
+    $db = "blog";
+    ...
+
+Create your database, in this example the name is blog:
+    
+    $ mysql -u root --password=password 
+    
+    mysql> CREATE DATABASE blog;
+
 Populate your new database with fake data using sql/script.sql file.
+    
+    $ mysql -u root --password=password blog < php/script.sql
 
 ## Usage
 
