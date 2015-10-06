@@ -36,7 +36,7 @@ Create your database, in this example the name is blog:
 
 Populate your new database with fake data using sql/script.sql file.
     
-    $ mysql -u root --password=password blog < php/script.sql
+    $ mysql -u root --password=password blog < sql/script.sql
 
 ## Usage
 
