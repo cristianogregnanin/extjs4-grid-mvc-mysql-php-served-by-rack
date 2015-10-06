@@ -1,7 +1,7 @@
 # ExtJS 4 MVC Example - CRUD Grid with JSON, Ajax, PHP and MySQL
 
 This is a real word example how to use a grid system with a real php/mysql server.
-To serve php files I use rack-lagacy gem.
+To serve php files I use rack-legacy gem.
 
 ## Installation
 
